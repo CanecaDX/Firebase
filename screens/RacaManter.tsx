@@ -40,7 +40,7 @@ const RacaManter = (props) => {
   const salvar = async () => {
     const raca = new Raca(formRaca);
 
-    console.log(raca.nome);
+    console.log(raca.id);
 
     if (raca.id === undefined) {
       const racaRefComId = racaRef.doc();
